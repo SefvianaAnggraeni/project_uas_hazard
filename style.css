@@ -1,0 +1,57 @@
+.napbar {
+    background-color: black;
+}
+
+.banner {
+    background: url("assets/img/bg.jpg") no-repeat center center;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    padding-top: 28%;
+    padding-bottom: 20%;
+    color: rgb(240, 248, 255);  
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.about-text{
+    size: 30px;
+}
+    
+.contact:hover {
+    filter:alpha(opacity=100);
+    -moz-opacity:0.7;
+    opacity:0.7;
+}
+
+.transbox {
+    background-color: rgba(0, 255, 255, 0.348);
+}
+
+.profile {
+    background-color: rgb(209, 233, 250);
+}
+.breadcrumb {
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: fit-content;
+    margin-left: auto;
+    background: transparent;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+}

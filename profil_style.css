@@ -1,0 +1,162 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+    padding: 0 !important;
+}
+
+fieldset {
+    border: solid;
+    border-radius: 20px;
+}
+
+legend {
+    width: fit-content;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h4 {
+    margin-left: 22px;
+    margin-bottom: 0;
+}
+
+h6 {
+    color: rgb(0, 119, 255);
+    margin-left: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 70px 0 40px;
+}
+
+button {
+    margin: 10px 0 20px 40px;
+}
+
+.flex2 {
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+dt {
+    font-size: large;
+}
+
+.tes {
+    font-weight: bold;
+}
+
+.galery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: auto;
+    justify-content: start;
+    background-color: b;
+    margin-bottom: 20px;
+    overflow: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+    /* border: 1px solid black ; */
+}
+
+.galery img {
+    flex: auto;
+    margin: 10px;
+    height: 200px;
+    box-shadow: 10px 10px 20px -5px black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.breadcrumb span {
+    margin: 0 5px;
+}
+
+.breadcrumb {
+    width: fit-content;
+    margin-left: auto;
+    background: transparent;
+}
+
+.card {
+    box-shadow: 0 0 10px;
+}
+
+.deskripsi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: fit-content;
+    margin: 0;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+}
+
+.deskripsi .card {
+    min-width: 400px;
+    flex: 1;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.form div {
+    display: flex;
+    justify-content: center;
+}
+table, form div {
+    min-width: 90%;
+    width: fit-content;
+}
+
+td {
+    padding: 5px 0;
+}
+
+td:first-child {
+    vertical-align: top;
+    text-align: right;
+    padding-right: 30px;
+    width: fit-content;
+}
+
+textarea {
+    height: 40px;
+}
+
+.col-md-6 iframe {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 10px;
+}
+
+div.card-block {
+    padding: 0 10px;
+}
+
+h3{
+    margin-left: 15px;
+}
+
+div.col-md-4{
+    margin-bottom: 20px;
+    height: 100%;
+}
+
