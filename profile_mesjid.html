@@ -64,7 +64,7 @@
     </div>
     <div class="container-fluid pt-5 pb-5">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 mt-5">
                 <h1>Direktori Data Masjid Kota Depok</h1>
                 <!-- breadcrumb -->
                 <div class="flex2 breadcrumb">
@@ -76,8 +76,8 @@
         </div>
         <div class="container-fluid pt-5 pb-5">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="row galery">
+                <div class="col-12">
+                    <div class="row galery col-12">
                         <img alt="Bootstrap Image Preview" src="assets/img/kubahemas.jpg" />
                         <img alt="Bootstrap Image Preview" src="assets/img/kubahemas2.jpg" />
                         <img alt="Bootstrap Image Preview" src="assets/img/kubahemas4.jpg" />
@@ -85,14 +85,14 @@
                         <img alt="Bootstrap Image Preview" src="assets/img/kubahemas6.jpg" />
                         <img alt="Bootstrap Image Preview" src="assets/img/kubah emas 3.jpg" />
                     </div>
-                    <div class="row deskripsi">
-                        <div class="col-md-6 card">
+                    <div class="row deskripsi col-12 mx-auto justify-content-center justify-content-around m-3">
+                        <div class="col-md-4 card mt-3 mb-3">
                             <dl>
-                                <dt>
+                                <dt class="text-center m-1">
                                     LAYANAN
                                 </dt>
                                 <dd>
-                                    <ul>
+                                    <ul class="align-content-center">
                                         <li>Lembaga Pengelolaan Zakat, Infak, Sedekah dan Wakaf</li>
                                         <li>Shalat Berjamaah</li>
                                         <li>Air Minum Gratis</li>
@@ -103,20 +103,17 @@
                                 </dd>
                             </dl>
                         </div>
-                        <div class="col-md-6 card">
+                        <div class="col-md-4 card mt-2">
                             <div class="row">
-                                <div class="col-md-6 ">
+                                <div class="col-4 m-auto">
                                     <address>
-                                        <strong>Alamat</strong><br />
+                                        <strong class="text-center">Alamat</strong><br />
                                         pos security kubah emas, <br> Jl. Meruyung Raya, Meruyung, <br> Kecamatan. Limo,
                                         <br> kota. Jawa Barat
                                         16515
-
-                                        <!-- 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br />
-                          <abbr title="Phone">P:</abbr> (123) 456-7890 -->
                                     </address>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-6 m-auto">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.078235629251!2d106.76974881399691!3d-6.383903764217977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ef282b03e03d%3A0x7a3c654ea43229d2!2sMasjid%20Kubah%20Emas%20Dian%20Al-Mahri%20Depok!5e0!3m2!1sid!2sid!4v1674112827820!5m2!1sid!2sid"
                                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -212,13 +209,13 @@
         crossorigin="anonymous"></script>
     <script>
         const element = document.querySelector(".galery");
-    
+
         element.addEventListener('wheel', (event) => {
             event.preventDefault();
-    
+
             element.scrollBy({
                 left: event.deltaY < 0 ? -30 : 30,
-    
+
             });
         });
     </script>
